@@ -47,11 +47,18 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
           {latestEpisodes.map(episode => {
             return (
               <li key={episode.id}>
-                < img 
-                  className={styles.img}
-                  src={episode.thumbnail} 
-                  alt={episode.title}
-                  />
+                <Link href={`/episodes/${episode.id}`}>
+                    <a>
+                        <Image 
+                        width={120}
+                        height={120}
+                        className={styles.img}
+                        src={episode.thumbnail} 
+                        alt={episode.title}
+                        objectFit="cover"
+                        />
+                    </a>
+                  </Link>
 
                 <div className={styles.episodeDatails}>
                   <Link href={`/episodes/${episode.id}`}>
@@ -89,13 +96,17 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                return (
                  <tr key={episode.id}>
                    <td style={{ width: 195 }}>
-                     <Image 
-                      width={120}
-                      height={120}
-                      src={episode.thumbnail}
-                      alt={episode.title}
-                      objectFit="cover"
-                     />
+                   <Link href={`/episodes/${episode.id}`}>
+                      <a>
+                        <Image 
+                          width={120}
+                          height={120}
+                          src={episode.thumbnail}
+                          alt={episode.title}
+                          objectFit="cover"
+                        />
+                      </a>
+                    </Link>
                    </td>
                    <td style={{ width: 300 }}>
                     <Link href={`/episodes/${episode.id}`}>
