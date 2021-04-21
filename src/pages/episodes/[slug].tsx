@@ -45,6 +45,7 @@ export default function Episode ({episode}: EpisodeProps) {
 
                 <button type="button">
                     <img src="/play.svg" alt="Tocar Episódio"/>
+                    
                 </button>
             </div>
 
