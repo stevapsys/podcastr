@@ -15,10 +15,11 @@
 
   --green-500: #04D361;
   
-  --purple-300: #9F75FF;
-  --purple-400: #9164FA; 
-  --purple-500: #8257E5;
-  --purple-800: #6F48C9;
+  --tag: #049cc0;
+  --tag-button: #009cc2;
+  --tag-orange: #dfa139;
+
+
 }
 
 @media (max-width: 1080px) {
@@ -38,13 +39,13 @@ body {
 }
 
 body, input, textarea, button {
-    font: 500 1rem Inter, sans-serif; 
+    font: 500 1rem Roboto, sans-serif; 
     color: var(--gray-500);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    font-family: Lexend, sans-serif;
+    font-family: Roboto, sans-serif;
     color: var(--gray-800)
 }
 

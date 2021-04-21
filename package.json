@@ -1,12 +1,12 @@
 {
-  "name": "podcastr-next",
+  "name": "webapp-tag",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "server": "json-server server.json -w -d 750 -p 3333"
+    "server": "json-server livros.json -w -d 750 -p 3333"
   },
   "dependencies": {
     "axios": "^0.21.1",

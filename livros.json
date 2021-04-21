@@ -1,0 +1,671 @@
+{
+   "results":[
+      {
+         "objectId":"1WHexRrC5v",
+         "pages":336,
+         "createdAt":"2017-02-15T17:36:00.537Z",
+         "updatedAt":"2017-07-03T10:47:08.299Z",
+         "author":"Jhumpa Lahiri",
+         "name":"O Xará",
+         "isbn": "9788525063557",
+         "curator":"Martha Medeiros",
+         "cover":{
+            "__type":"File",
+            "name":"8d7bd45d8ec66ddba8534765fadff35e_oxara.jpg",
+            "url":"https://static2.taglivros.com/8d7bd45d8ec66ddba8534765fadff35e_oxara.jpg"
+         },
+         "edition":"Fevereiro de 2017",
+         "blocked":false,
+         "numRatings":863,
+         "totalRatings":3785
+      },
+      {
+         "objectId":"4MQrahe9Fk",
+         "author":"Fiódor Dostoiévski",
+         "createdAt":"2017-01-24T13:39:30.147Z",
+         "updatedAt":"2017-07-01T00:17:35.086Z",
+         "name":"Duas Narrativas Fantásticas",
+         "isbn": "9788573262711",
+         "pages":128,
+         "cover":{
+            "__type":"File",
+            "name":"e40b34d22e66980bd2125f5250be5e39_695243.jpg",
+            "url":"https://static2.taglivros.com/e40b34d22e66980bd2125f5250be5e39_695243.jpg"
+         },
+         "edition":"Março de 2015",
+         "curator":"Luiz Felipe Pondé",
+         "blocked":false,
+         "numRatings":44,
+         "totalRatings":189
+      },
+      {
+         "objectId":"4trWWVgkZU",
+         "name":"O Casamento",
+         "createdAt":"2017-01-24T13:58:16.763Z",
+         "updatedAt":"2017-07-03T12:59:29.868Z",
+         "author":"Nelson Rodrigues",
+         "isbn": "9788520926499",
+         "pages":272,
+         "curator":"Heloisa Seixas",
+         "cover":{
+            "__type":"File",
+            "name":"2ff2ea7fe950b7e5ee5d32f65510d249_0b7738a0-4470-483e-9373-7a8581472359.jpg",
+            "url":"https://static2.taglivros.com/2ff2ea7fe950b7e5ee5d32f65510d249_0b7738a0-4470-483e-9373-7a8581472359.jpg"
+         },
+         "edition":"Agosto de 2016",
+         "blocked":false,
+         "numRatings":506,
+         "totalRatings":1938
+      },
+      {
+         "objectId":"9p7Dmj6ohA",
+         "createdAt":"2017-01-24T13:42:48.832Z",
+         "updatedAt":"2017-06-30T15:11:03.763Z",
+         "name":"Sidarta",
+         "isbn": "9788501020307",
+         "author":"Hermann Hesse",
+         "pages":176,
+         "curator":"José Pacheco",
+         "cover":{
+            "__type":"File",
+            "name":"7e731556e5f0aa9345a40d8cf5d72e5f_cap.jpg",
+            "url":"https://static2.taglivros.com/7e731556e5f0aa9345a40d8cf5d72e5f_cap.jpg"
+         },
+         "edition":"Junho de 2015",
+         "blocked":false,
+         "numRatings":67,
+         "totalRatings":287
+      },
+      {
+         "objectId":"BGjVHyxuS1",
+         "name":"Vitória",
+         "isbn": "9788583180715",
+         "createdAt":"2017-01-24T14:00:46.134Z",
+         "updatedAt":"2017-07-02T16:24:38.360Z",
+         "author":"Joseph Conrad",
+         "pages":394,
+         "curator":"John Gray",
+         "cover":{
+            "__type":"File",
+            "name":"fc9e9a115d02d419fa545b6bdf8f84cd_vitoria.jpg",
+            "url":"https://static2.taglivros.com/fc9e9a115d02d419fa545b6bdf8f84cd_vitoria.jpg"
+         },
+         "edition":"Novembro de 2016",
+         "blocked":false,
+         "numRatings":428,
+         "totalRatings":1681
+      },
+      {
+         "objectId":"F2xiOeDphl",
+         "name":"Stoner",
+         "isbn": "8567861142",
+         "createdAt":"2017-01-24T13:54:28.365Z",
+         "updatedAt":"2017-07-03T13:32:28.277Z",
+         "author":"John Williams",
+         "pages":320,
+         "curator":"Letícia Wierzchowski",
+         "cover":{
+            "__type":"File",
+            "name":"120b4eeab1edd43967664f32f18de63d_2015-784472939-capa-radiolondres_stoner_johnwiliams.jpg_20150121.jpg",
+            "url":"https://static2.taglivros.com/120b4eeab1edd43967664f32f18de63d_2015-784472939-capa-radiolondres_stoner_johnwiliams.jpg_20150121.jpg"
+         },
+         "edition":"Abril de 2016",
+         "blocked":false,
+         "numRatings":383,
+         "totalRatings":1821
+      },
+      {
+         "objectId":"FB7U0UQpHx",
+         "pages":374,
+         "createdAt":"2017-02-15T17:34:41.453Z",
+         "updatedAt":"2017-07-03T00:45:38.635Z",
+         "author":"Nikos Kazantzakis",
+         "name":"Vida e Proezas de Aléxis Zorbás",
+         "isbn": "9788561578602",
+         "curator":"Patch Adams",
+         "cover":{
+            "__type":"File",
+            "name":"b510b012859bbcdf13b775b7720d24ba_zorbas.jpg",
+            "url":"https://static2.taglivros.com/b510b012859bbcdf13b775b7720d24ba_zorbas.jpg"
+         },
+         "edition":"Janeiro de 2017",
+         "blocked":false,
+         "numRatings":632,
+         "totalRatings":2399
+      },
+      {
+         "objectId":"Fn9S1g5EZM",
+         "author":"Noah Gordon",
+         "createdAt":"2017-01-24T13:27:27.554Z",
+         "updatedAt":"2017-06-30T15:09:39.391Z",
+         "curator":"Mario Sergio Cortella",
+         "cover":{
+            "__type":"File",
+            "name":"b76532b09c3eee503c50a3dbcaba947f_o-fc3adsico.jpg",
+            "url":"https://static2.taglivros.com/b76532b09c3eee503c50a3dbcaba947f_o-fc3adsico.jpg"
+         },
+         "edition":"Agosto de 2014",
+         "pages":596,
+         "name":"O Físico",
+         "isbn": "8532503039",
+         "blocked":false,
+         "numRatings":67,
+         "totalRatings":310
+      },
+      {
+         "objectId":"G8SbLaAGu9",
+         "name":"Paddy Clarke Ha Ha Ha",
+         "isbn": "9788585865061",
+         "createdAt":"2017-01-24T13:59:20.371Z",
+         "updatedAt":"2017-07-02T12:30:54.941Z",
+         "author":"Roddy Doyle",
+         "pages":288,
+         "curator":"Maria Rita Kehl",
+         "cover":{
+            "__type":"File",
+            "name":"04efe1e39819da27153de02792af1f7e_3524560935_9b6248330e_o.jpg",
+            "url":"https://static2.taglivros.com/04efe1e39819da27153de02792af1f7e_3524560935_9b6248330e_o.jpg"
+         },
+         "edition":"Setembro de 2016",
+         "blocked":false,
+         "numRatings":383,
+         "totalRatings":1331
+      },
+      {
+         "objectId":"GjUKFHWd5B",
+         "name":"A Estrada",
+         "isbn": "9788560281268",
+         "createdAt":"2017-01-24T13:46:00.973Z",
+         "updatedAt":"2017-06-24T22:26:14.051Z",
+         "author":"Cormac McCarthy",
+         "pages":240,
+         "curator":"David Eagleman",
+         "cover":{
+            "__type":"File",
+            "name":"80aa2865028d76d8751e6c790ba99058_A_ESTRADA_1360707170B.jpg",
+            "url":"https://static2.taglivros.com/80aa2865028d76d8751e6c790ba99058_A_ESTRADA_1360707170B.jpg"
+         },
+         "edition":"Agosto de 2015",
+         "blocked":false,
+         "numRatings":35,
+         "totalRatings":142
+      },
+      {
+         "objectId":"GqvjzU8RCS",
+         "name":"Aprender a Viver",
+         "isbn": "9788539001057",
+         "createdAt":"2017-01-24T13:49:22.263Z",
+         "updatedAt":"2017-07-03T02:35:25.809Z",
+         "author":"Luc Ferry",
+         "pages":240,
+         "curator":"Clóvis de Barros Filho",
+         "cover":{
+            "__type":"File",
+            "name":"2a00d9fdb7bfe19d38241dbee81c5b0d_22288658.jpg",
+            "url":"https://static2.taglivros.com/2a00d9fdb7bfe19d38241dbee81c5b0d_22288658.jpg"
+         },
+         "edition":"Novembro de 2015",
+         "blocked":false,
+         "numRatings":43,
+         "totalRatings":170
+      },
+      {
+         "objectId":"H1xOUS3Hir",
+         "name":"A Louca da Casa",
+         "isbn": "9788520940617",
+         "createdAt":"2017-01-24T14:00:02.076Z",
+         "updatedAt":"2017-07-03T02:45:14.314Z",
+         "author":"Rosa Montero",
+         "pages":176,
+         "curator":"Carola Saavedra",
+         "cover":{
+            "__type":"File",
+            "name":"22192942872342a49734cd973eb34db9_1efcfbb6-9dfe-41d1-ad8f-0c1ce39de6fb.jpg",
+            "url":"https://static2.taglivros.com/22192942872342a49734cd973eb34db9_1efcfbb6-9dfe-41d1-ad8f-0c1ce39de6fb.jpg"
+         },
+         "edition":"Outubro de 2016",
+         "blocked":false,
+         "numRatings":543,
+         "totalRatings":2173
+      },
+      {
+         "objectId":"HYIRITQvPU",
+         "author":"Emilio Salgari",
+         "createdAt":"2017-01-24T13:31:47.970Z",
+         "updatedAt":"2017-06-30T00:36:46.910Z",
+         "name":"Os Tigres de Mompracem",
+         "isbn": "9788573212877",
+         "pages":336,
+         "curator":"Javier Naranjo",
+         "cover":{
+            "__type":"File",
+            "name":"b61bbd5ecfcdb9aea2727720e5b47719_2542922.jpg",
+            "url":"https://static2.taglivros.com/b61bbd5ecfcdb9aea2727720e5b47719_2542922.jpg"
+         },
+         "edition":"Outubro de 2014",
+         "blocked":false,
+         "numRatings":12,
+         "totalRatings":47
+      },
+      {
+         "objectId":"K7bconKP8i",
+         "pages":296,
+         "createdAt":"2017-01-24T13:34:11.636Z",
+         "updatedAt":"2017-06-24T22:26:55.876Z",
+         "author":"Marguerite Yourcenar",
+         "name":"Memórias de Adriano",
+         "isbn": "9788520924488",
+         "curator":"Frei Betto",
+         "cover":{
+            "__type":"File",
+            "name":"0476080572d8c7fe876e62f2f4fb04ed_MEMORIAS_DE_ADRIANO_1324783379B.jpg",
+            "url":"https://static2.taglivros.com/0476080572d8c7fe876e62f2f4fb04ed_MEMORIAS_DE_ADRIANO_1324783379B.jpg"
+         },
+         "edition":"Novembro de 2014",
+         "blocked":false,
+         "numRatings":16,
+         "totalRatings":74
+      },
+      {
+         "objectId":"LUucTIUUnw",
+         "name":"O Encontro Marcado",
+         "isbn": "9788501912008",
+         "createdAt":"2017-01-24T13:43:57.476Z",
+         "updatedAt":"2017-07-02T16:26:41.741Z",
+         "author":"Fernando Sabino",
+         "pages":296,
+         "curator":"Mario Prata",
+         "cover":{
+            "__type":"File",
+            "name":"aeaa306c2ff7be75e1facf082e8e5dde_O-encontro-marcado.jpg",
+            "url":"https://static2.taglivros.com/aeaa306c2ff7be75e1facf082e8e5dde_O-encontro-marcado.jpg"
+         },
+         "edition":"Julho de 2015",
+         "blocked":false,
+         "numRatings":49,
+         "totalRatings":213
+      },
+      {
+         "objectId":"NKQa88F56Y",
+         "author":"Viktor Frankl",
+         "createdAt":"2017-01-24T13:29:57.277Z",
+         "updatedAt":"2017-07-01T00:17:01.085Z",
+         "name":"Em Busca de Sentido",
+         "isbn": "9788532606266",
+         "pages":140,
+         "curator":"Daniel Pink",
+         "cover":{
+            "__type":"File",
+            "name":"1865cd81570aade4e66143426d74459a_195589_Ampliada.jpg",
+            "url":"https://static2.taglivros.com/1865cd81570aade4e66143426d74459a_195589_Ampliada.jpg"
+         },
+         "edition":"Setembro de 2014",
+         "blocked":false,
+         "numRatings":33,
+         "totalRatings":146
+      },
+      {
+         "objectId":"O9atwGvmqC",
+         "name":"O Seminarista",
+         "isbn": "9788520935057",
+         "createdAt":"2017-01-24T13:51:24.812Z",
+         "updatedAt":"2017-07-03T00:55:37.234Z",
+         "pages":200,
+         "curator":"Luis Fernando Verissimo",
+         "cover":{
+            "__type":"File",
+            "name":"25b3fb984ed5750c09c4989625d8135d_o-seminarista.jpg",
+            "url":"https://static2.taglivros.com/25b3fb984ed5750c09c4989625d8135d_o-seminarista.jpg"
+         },
+         "edition":"Janeiro de 2016",
+         "author":"Rubem Fonseca",
+         "blocked":false,
+         "numRatings":186,
+         "totalRatings":712
+      },
+      {
+         "objectId":"VZilyNzDUU",
+         "name":"O Vermelho e o Negro",
+         "isbn": "9788583180722",
+         "createdAt":"2017-01-24T13:57:12.988Z",
+         "updatedAt":"2017-07-03T00:11:11.705Z",
+         "author":"Stendhal",
+         "pages":540,
+         "curator":"Luiz Ruffato",
+         "cover":{
+            "__type":"File",
+            "name":"1a8bda046539fe070b83b1827f115d6e_O_VERMELHO_E_O_NEGRO_14678644971576SK1467864497B.jpg",
+            "url":"https://static2.taglivros.com/1a8bda046539fe070b83b1827f115d6e_O_VERMELHO_E_O_NEGRO_14678644971576SK1467864497B.jpg"
+         },
+         "edition":"Julho de 2016",
+         "blocked":false,
+         "numRatings":295,
+         "totalRatings":1213
+      },
+      {
+         "objectId":"XEROtPpiHB",
+         "name":"A Balada de Adam Henry",
+         "isbn": "9788535925135",
+         "createdAt":"2017-01-24T13:56:18.799Z",
+         "updatedAt":"2017-07-03T07:31:25.264Z",
+         "author":"Ian McEwan",
+         "pages":188,
+         "curator":"Jorio Dauster",
+         "cover":{
+            "__type":"File",
+            "name":"b51b9586040145c85b4f54d3fb3ee092_13808_gg.jpg",
+            "url":"https://static2.taglivros.com/b51b9586040145c85b4f54d3fb3ee092_13808_gg.jpg"
+         },
+         "edition":"Junho de 2016",
+         "blocked":false,
+         "numRatings":337,
+         "totalRatings":1339
+      },
+      {
+         "objectId":"XlkGEDfFrt",
+         "author":"William Faulkner",
+         "createdAt":"2017-01-24T13:36:18.607Z",
+         "updatedAt":"2017-06-24T22:26:48.436Z",
+         "name":"O Intruso",
+         "isbn": "9788564065321",
+         "pages":272,
+         "curator":"Patch Adams",
+         "cover":{
+            "__type":"File",
+            "name":"6f59b83108800b15de77f2ed452032d1_O_INTRUSO_1337887567B.jpg",
+            "url":"https://static2.taglivros.com/6f59b83108800b15de77f2ed452032d1_O_INTRUSO_1337887567B.jpg"
+         },
+         "edition":"Janeiro de 2015",
+         "blocked":false,
+         "numRatings":11,
+         "totalRatings":42
+      },
+      {
+         "objectId":"cs0OGTscXR",
+         "name":"Neve",
+         "isbn": "9788535909227",
+         "createdAt":"2017-01-24T13:40:39.073Z",
+         "updatedAt":"2017-06-30T00:35:33.425Z",
+         "author":"Orhan Pamuk",
+         "pages":488,
+         "curator":"Sarah Hrdy",
+         "cover":{
+            "__type":"File",
+            "name":"dc8367ac4b8f2c52ebd357cd91f6cdc8_922710.jpg",
+            "url":"https://static2.taglivros.com/dc8367ac4b8f2c52ebd357cd91f6cdc8_922710.jpg"
+         },
+         "edition":"Abril de 2015",
+         "blocked":false,
+         "numRatings":30,
+         "totalRatings":120
+      },
+      {
+         "objectId":"dZGjwhSLSK",
+         "name":"Solar",
+         "isbn": "9788535917512",
+         "createdAt":"2017-01-24T13:37:52.746Z",
+         "updatedAt":"2017-07-03T01:55:34.757Z",
+         "author":"Ian McEwan",
+         "pages":344,
+         "curator":"Paul Bloom",
+         "cover":{
+            "__type":"File",
+            "name":"77d7f414c7940d73815042cc282adb30_12929_gg.jpg",
+            "url":"https://static2.taglivros.com/77d7f414c7940d73815042cc282adb30_12929_gg.jpg"
+         },
+         "edition":"Fevereiro de 2015",
+         "blocked":false,
+         "numRatings":23,
+         "totalRatings":91
+      },
+      {
+         "objectId":"gu0WTtryAf",
+         "pages":576,
+         "createdAt":"2017-01-24T13:35:31.689Z",
+         "updatedAt":"2017-07-02T15:50:28.532Z",
+         "author":"Jane Austen",
+         "name":"Orgulho e Preconceito",
+         "isbn": "9788563560155",
+         "curator":"Peter Singer",
+         "cover":{
+            "__type":"File",
+            "name":"11b45c40da1dfaa9a0e594d3a1c37eae_85017_gg.jpg",
+            "url":"https://static2.taglivros.com/11b45c40da1dfaa9a0e594d3a1c37eae_85017_gg.jpg"
+         },
+         "edition":"Dezembro de 2014",
+         "blocked":false,
+         "numRatings":133,
+         "totalRatings":614
+      },
+      {
+         "objectId":"hpnLBgbUNY",
+         "name":"A Improvável Jornada de Harold Fry",
+         "isbn": "9788581051659",
+         "createdAt":"2017-01-24T13:53:30.438Z",
+         "updatedAt":"2017-07-03T00:12:03.910Z",
+         "author":"Rachel Joyce",
+         "pages":248,
+         "curator":"Susan Blackmore",
+         "cover":{
+            "__type":"File",
+            "name":"161bc319ea665b0eea56f1d9146f4be7_download.png",
+            "url":"https://static2.taglivros.com/161bc319ea665b0eea56f1d9146f4be7_download.png"
+         },
+         "edition":"Março de 2016",
+         "blocked":false,
+         "numRatings":251,
+         "totalRatings":960
+      },
+      {
+         "objectId":"jicfGOOpa5",
+         "name":"Desonra",
+         "isbn": "9788535900804",
+         "createdAt":"2017-01-24T13:52:12.839Z",
+         "updatedAt":"2017-07-03T00:12:22.270Z",
+         "author":"J. M. Coetzee",
+         "pages":248,
+         "curator":"Sérgio Rodrigues",
+         "cover":{
+            "__type":"File",
+            "name":"c5a8acf7853bd6192c36bd2192f4bf55_11257_gg.jpg",
+            "url":"https://static2.taglivros.com/c5a8acf7853bd6192c36bd2192f4bf55_11257_gg.jpg"
+         },
+         "edition":"Fevereiro de 2016",
+         "blocked":false,
+         "numRatings":281,
+         "totalRatings":1249
+      },
+      {
+         "objectId":"kAe5CjiGE3",
+         "name":"Ainda Estou Aqui",
+         "isbn": "9788579624162",
+         "createdAt":"2017-01-24T14:02:13.702Z",
+         "updatedAt":"2017-07-02T06:52:41.999Z",
+         "author":"Marcelo Rubens Paiva",
+         "pages":296,
+         "curator":"Hélio de la Peña",
+         "cover":{
+            "__type":"File",
+            "name":"0fcd6faa7639197ec24804c6ac69ce13_9788579624162_300_grafica.jpg",
+            "url":"https://static2.taglivros.com/0fcd6faa7639197ec24804c6ac69ce13_9788579624162_300_grafica.jpg"
+         },
+         "edition":"Dezembro de 2016",
+         "blocked":false,
+         "active":true,
+         "numRatings":648,
+         "totalRatings":2839
+      },
+      {
+         "objectId":"kvLIJffjeh",
+         "name":"Doze Contos Peregrinos",
+         "isbn": "9788501040664",
+         "createdAt":"2017-01-24T13:50:31.604Z",
+         "updatedAt":"2017-06-30T00:01:03.168Z",
+         "author":"Gabriel García Márquez",
+         "pages":252,
+         "curator":"Suzana Herculano-Houzel",
+         "cover":{
+            "__type":"File",
+            "name":"921f97c43e32fc51a0c9482dc4acf527_53194.jpg",
+            "url":"https://static2.taglivros.com/921f97c43e32fc51a0c9482dc4acf527_53194.jpg"
+         },
+         "edition":"Dezembro de 2015",
+         "blocked":false,
+         "numRatings":112,
+         "totalRatings":488
+      },
+      {
+         "objectId":"tsxqplFfNc",
+         "name":"Noite do Oráculo",
+         "isbn": "8535904980",
+         "createdAt":"2017-01-24T13:47:37.797Z",
+         "updatedAt":"2017-06-30T15:11:45.092Z",
+         "author":"Paul Auster",
+         "pages":230,
+         "curator":"Gregorio Duvivier",
+         "cover":{
+            "__type":"File",
+            "name":"85a9bb9b06079f786ba8038ef12a6918_1-fEawdfl4qq4GXRvxC1c65A.png",
+            "url":"https://static2.taglivros.com/85a9bb9b06079f786ba8038ef12a6918_1-fEawdfl4qq4GXRvxC1c65A.png"
+         },
+         "edition":"Setembro de 2015",
+         "blocked":false,
+         "numRatings":39,
+         "totalRatings":160
+      },
+      {
+         "objectId":"wo5zyQK86l",
+         "author":"Edgar Allan Poe",
+         "createdAt":"2017-01-24T13:48:33.828Z",
+         "updatedAt":"2017-07-01T18:37:28.047Z",
+         "name":"Contos de Imaginação e Mistério",
+         "isbn": "9788564406353",
+         "pages":424,
+         "curator":"Marcelo Gleiser",
+         "cover":{
+            "__type":"File",
+            "name":"680f0b4d020cd2f0f6f072e481d47c5d_contos-poe.jpg",
+            "url":"https://static2.taglivros.com/680f0b4d020cd2f0f6f072e481d47c5d_contos-poe.jpg"
+         },
+         "edition":"Outubro de 2015",
+         "blocked":false,
+         "numRatings":61,
+         "totalRatings":274
+      },
+      {
+         "objectId":"x6ii4cD3LY",
+         "name":"O Caminho Estreito para os Confins do Norte",
+         "isbn": "9788525059178",
+         "createdAt":"2017-01-24T13:55:34.502Z",
+         "updatedAt":"2017-07-03T00:11:30.441Z",
+         "author":"Richard Flannagan",
+         "pages":430,
+         "curator":"Adriana Lisboa",
+         "cover":{
+            "__type":"File",
+            "name":"1ef1df87f166f590b95a839930e4898f_medium_1282.jpg",
+            "url":"https://static2.taglivros.com/1ef1df87f166f590b95a839930e4898f_medium_1282.jpg"
+         },
+         "edition":"Maio de 2016",
+         "blocked":false,
+         "numRatings":189,
+         "totalRatings":761
+      },
+      {
+         "objectId":"xEB0z6GHn2",
+         "name":"Patrimônio",
+         "isbn": "9788535920635",
+         "createdAt":"2017-01-24T13:41:27.226Z",
+         "updatedAt":"2017-06-28T18:24:56.066Z",
+         "author":"Philip Roth",
+         "pages":192,
+         "cover":{
+            "__type":"File",
+            "name":"f1210337eb95af7c9cf1ea5793837845_13065_gg.jpg",
+            "url":"https://static2.taglivros.com/f1210337eb95af7c9cf1ea5793837845_13065_gg.jpg"
+         },
+         "edition":"Maio de 2015",
+         "curator":"Cíntia Moscovich",
+         "blocked":false,
+         "numRatings":28,
+         "totalRatings":123
+      },
+      {
+         "objectId":"z0UfKY6HnU",
+         "pages":224,
+         "createdAt":"2017-03-06T15:55:03.376Z",
+         "updatedAt":"2017-07-03T08:12:45.598Z",
+         "author":"Angela Carter",
+         "name":"A Câmara Sangrenta",
+         "isbn": "9788583180876",
+         "blocked":true,
+         "curator":"Marina Colasanti",
+         "cover":{
+            "__type":"File",
+            "name":"8b18c37e95e90140eb44c26886367369_Acamarasangrenta.jpg",
+            "url":"https://static2.taglivros.com/8b18c37e95e90140eb44c26886367369_Acamarasangrenta.jpg"
+         },
+         "edition":"Março de 2017",
+         "numRatings":799,
+         "totalRatings":2620
+      },
+      {
+         "objectId":"6fhB9njrrd",
+         "pages":254,
+         "createdAt":"2017-04-05T20:39:58.881Z",
+         "updatedAt":"2017-07-03T14:57:44.461Z",
+         "author":"Patrick deWitt",
+         "blocked":true,
+         "name":"Os irmãos Sisters",
+         "isbn": "9788542209266",
+         "curator":"Daniel Galera",
+         "cover":{
+            "__type":"File",
+            "name":"a4f034528810f85b85aa0b273a573b3d_IMG_0144.JPG",
+            "url":"https://static2.taglivros.com/a4f034528810f85b85aa0b273a573b3d_IMG_0144.JPG"
+         },
+         "edition":"Abril de 2017",
+         "numRatings":835,
+         "totalRatings":3521
+      },
+      {
+         "objectId":"SPYNZAD557",
+         "pages":383,
+         "createdAt":"2017-05-08T14:47:49.508Z",
+         "updatedAt":"2017-07-03T14:20:23.000Z",
+         "author":"Giuseppe Tomasi de Lampedusa",
+         "name":"O Leopardo",
+         "isbn": "9788535928983",
+         "blocked":true,
+         "curator":"Mario Vargas Llosa",
+         "cover":{
+            "__type":"File",
+            "name":"118cb7501ce166b0d685ae2d5a2c6e06_O_Leopardo.jpg",
+            "url":"https://static2.taglivros.com/118cb7501ce166b0d685ae2d5a2c6e06_O_Leopardo.jpg"
+         },
+         "edition":"Maio de 2017",
+         "numRatings":437,
+         "totalRatings":1710
+      },
+      {
+         "objectId":"gK6iJY2SYJ",
+         "createdAt":"2017-06-05T18:31:53.108Z",
+         "updatedAt":"2017-07-03T14:24:08.338Z",
+         "active":true,
+         "pages":377,
+         "author":"Emmanuel Carrère",
+         "name":"Limonov",
+         "isbn": "9788565620401",
+         "blocked":true,
+         "curator":"Marcelo Rubens Paiva",
+         "cover":{
+            "__type":"File",
+            "name":"46bace26ef4478fd32a96c6df5c32fe9_capa.jpg",
+            "url":"https://static2.taglivros.com/46bace26ef4478fd32a96c6df5c32fe9_capa.jpg"
+         },
+         "edition":"Junho de 2017",
+         "numRatings":166,
+         "totalRatings":630
+      }
+   ]
+}

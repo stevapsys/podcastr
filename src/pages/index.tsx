@@ -1,126 +1,69 @@
 
-import { useEffect } from "react"
 import { GetStaticProps } from 'next';
 import { api } from "../services/api";
-import { format, parseISO } from 'date-fns'; 
-import ptBR from 'date-fns/locale/pt-BR'; 
-import { convertDurationToTimeString } from "../utils/convertDurationToTimeString";
 import styles from './home.module.scss'; 
-import Image from 'next/image';
 import Link from 'next/link';
 
 
-type Episode = {
+type Book = {
       id: string;
-      title: string;
+      pages: number;
+      title: string; 
       thumbnail: string;
-      members: string;
-      duration: number; 
-      durationAsString: number; 
-      url: string; 
+      author: string;
+      edition: number; 
+      isbn: number; 
+      ratings: number; 
       publishedAt: string; 
-      // ... 
+      curator: string; 
   }
 
+
 type HomeProps = {
-  latestEpisodes: Episode[];
-  allEpisodes: Episode[];
+  allBooks: Book[];
 }
 
-export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
+export default function Home({ allBooks }: HomeProps) {
 
-// console.log(props.episodes[0].title)
 
-  //Chamada de API em SPA - Não indicada quando as informações precisam aparecer já quando a página é inicializadas
-
-  // useEffect( () => {
-  //     fetch('http://localhost:3333/episodes')
-  //     .then(response => response.json())
-  //     .then(data => console.log(data))
-  // }, [])
-  
   return (
     <div className={styles.homepage}>
-      <section className={styles.latestEpisodes}>
-        <h2>Últimos lançamentos</h2>
-        <ul>
-          {latestEpisodes.map(episode => {
-            return (
-              <li key={episode.id}>
-                <Link href={`/episodes/${episode.id}`}>
-                    <a>
-                        <Image 
-                        width={120}
-                        height={120}
-                        className={styles.img}
-                        src={episode.thumbnail} 
-                        alt={episode.title}
-                        objectFit="cover"
-                        />
-                    </a>
-                  </Link>
-
-                <div className={styles.episodeDatails}>
-                  <Link href={`/episodes/${episode.id}`}>
-                    <a >{episode.title}</a>
-                  </Link>
-                  <p>{episode.members}</p>
-                  <span>{episode.publishedAt}</span>
-                  <span>{episode.durationAsString}</span>
-                </div>
-
-                <button type="button">
-                    <img src="/play-green.svg" alt="Tocar episódio"/>
-                </button>
-              </li>
-            )
-          })}
-        </ul>
-      </section>
+        
       <section className={styles.allEpisodes}>
          <h2>Todos os episódios</h2>
          <table cellSpacing={0}>
            <thead>
              <tr>
-              <th></th>
-              <th>Podcast</th>
-              <th>Integrantes</th>
-              <th>Data</th>
-              <th>Duração</th>
-              <th></th>
+              <th>Capa</th>
+              <th>Título</th>
+              <th>Data da edição</th>
+              <th>Curador</th>
+              <th>Páginas</th>
+              <th>Avaliações TAG</th>
+              <th>Avaliações GoodRead</th>
+
              </tr>
            </thead>
 
            <tbody>
-             {allEpisodes.map(episode => {
+             {allBooks.map(book => {
+
                return (
-                 <tr key={episode.id}>
+                 <tr key={book.id}>
                    <td style={{ width: 195 }}>
-                   <Link href={`/episodes/${episode.id}`}>
-                      <a>
-                        <Image 
-                          width={120}
-                          height={120}
-                          src={episode.thumbnail}
-                          alt={episode.title}
-                          objectFit="cover"
-                        />
-                      </a>
-                    </Link>
+                        <img src={book.thumbnail} alt=""/>
                    </td>
-                   <td style={{ width: 300 }}>
-                    <Link href={`/episodes/${episode.id}`}>
-                      <a >{episode.title}</a>
-                    </Link>
-                   </td>
-                   <td>{episode.members}</td>
-                   <td style={{ width: 100 }}>{episode.publishedAt}</td>
-                   <td>{episode.durationAsString}</td>
                    <td>
-                     <button type="button">
-                       <img src="/play-green.svg" alt="Tocar episódio"/>
-                     </button>
-                   </td>
+                      <Link href={`/books/${book.id}`}>
+                        <a>{book.title}</a>
+                      </Link> 
+                    </td>
+                   <td>{book.edition}</td>
+                   <td>{book.author}</td>
+                   <td>{book.pages}</td>
+                   <td>{book.ratings}</td>
+                   <td>Avaliação Good Readings</td>
+
                  </tr>
                )
              })}
@@ -132,49 +75,35 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
   )
 }
 
-//Chamada de API em SSR
-// export async function getServerSideProps() {
-//   const response = await fetch('http://localhost:3333/episodes')
-//   const data = await response.json()
-
-//   return {
-//     props: {
-//       episodes: data, 
-//     }
-//   }
-// }
 
 
-//Chamada em SSG - Para quando não precisa atualizar a API o tempo todo. O Revalidate calcula de quanto em quanto tempo a API vai atualizar 
 export const getStaticProps: GetStaticProps = async () => {
-  const {data} = await  api.get('/episodes', {
+  const {data} = await  api.get('/results', {
     params: {
-      _limit: 12, 
-      _sort: 'published_at',
+      _sort: 'createdAt',
       _order: 'desc'
     }
   })
 
-  const episodes = data.map(episode => {
+  const books = data.map(book => {
     return {
-      id: episode.id,
-      title: episode.title,
-      thumbnail: episode.thumbnail, 
-      members: episode.members,
-      publishedAt: format(parseISO(episode.published_at), 'd MMM yy', {locale: ptBR}),
-      duration: Number(episode.file.duration),
-      durationAsString: convertDurationToTimeString(Number(episode.file.duration)),
-      url: episode.file.url
+      id: book.objectId,
+      pages: book.pages,
+      title: book.name,
+      thumbnail: book.cover.url, 
+      author: book.author,
+      edition: book.edition, 
+      ratings: book.totalRatings,
+      isbn: book.isbn,
+      curator: book.curator, 
     };
   })
 
-  const latestEpisodes = episodes.slice(0,2); 
-  const allEpisodes = episodes.slice(2, episodes.lenght);
+  const allBooks = books;
 
   return {
     props: {
-      latestEpisodes, 
-      allEpisodes,
+      allBooks,
     },
     revalidate: 60 * 60 * 8, 
   }

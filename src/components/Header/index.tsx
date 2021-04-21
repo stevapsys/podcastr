@@ -1,5 +1,4 @@
 import format from 'date-fns/format';
-import ptBR from 'date-fns/locale/pt-BR';
 import Link from 'next/link';
 
 
@@ -7,20 +6,19 @@ import styles from './styles.module.scss';
 
 export function Header() {
 
-    //conferir a formatação exata que quer na documentação do Date-fns
-    const currentDate = format(new Date(), 'EEEEEE, d MMM', {
-        locale: ptBR, 
-    });
+ 
 
     return(
         <header className={styles.headerContainer}>
              <Link href={`/`}>
-                 <a><img src="/logo.svg" alt="Podcastr"/></a>
-             </Link>
+                 <a><img src="/tag.png" alt="TAG" width='30%' /></a>
+             </Link> 
 
-            <p>O melhor para você ouvir, sempre</p>
+            <div className={styles.headerTitle}>
+                <h1>Comparativo de notas</h1>
+                <strong>Associados TAG x Avalições Good Reads</strong>
+            </div>
 
-            <span>{currentDate}</span>
         </header>
     );
 }
