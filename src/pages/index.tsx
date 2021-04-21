@@ -3,6 +3,8 @@ import { GetStaticProps } from 'next';
 import { api } from "../services/api";
 import styles from './home.module.scss'; 
 import Link from 'next/link';
+import { useState } from 'react'; 
+
 
 
 type Book = {
@@ -34,7 +36,8 @@ export default function Home({ allBooks }: HomeProps) {
     
         {allBooks.map(book => {
           return(
-            <div className={styles.cardContainer}>
+           <div>
+             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.cardImage}>
                     <Link href={`/books/${book.id}`}>
@@ -44,12 +47,12 @@ export default function Home({ allBooks }: HomeProps) {
                 <div  className={styles.cardContent}>
                   <h3>{book.title}</h3>
                   <span>{book.edition}</span>
-                  <button type="button">Mais detalhes</button>
+                  <button type="button"> Compare as notas! </button>
                 </div>
-
               </div>
-              
             </div>
+
+           </div>  
           
           )
          })}
@@ -99,7 +102,6 @@ export default function Home({ allBooks }: HomeProps) {
     </div>
   )
 }
-
 
 
 export const getStaticProps: GetStaticProps = async () => {

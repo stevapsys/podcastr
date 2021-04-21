@@ -1,6 +1,4 @@
-import format from 'date-fns/format';
 import Link from 'next/link';
-
 
 import styles from './styles.module.scss'; 
 

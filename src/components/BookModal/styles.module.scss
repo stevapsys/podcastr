@@ -1,0 +1,32 @@
+.headerContainer {
+    background: var(--white);
+    height: 8.5rem;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+    padding: 2rem 4rem; 
+    border-bottom: 1px solid var(--gray-100);
+
+    .headerTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        h1 {
+            color: var(--tag);
+            font-family: Roboto, sans-serif;
+         }
+
+         strong {
+            font-size: 1.2rem;
+            padding-top: 0.2rem;
+            font-family: Roboto, sans-serif;
+            color: var(--tag-orange);
+
+         }
+    }
+    
+   
+}
+
