@@ -29,9 +29,34 @@ export default function Home({ allBooks }: HomeProps) {
   return (
     <div className={styles.homepage}>
         
-      <section className={styles.allEpisodes}>
-         <h2>Todos os episódios</h2>
-         <table cellSpacing={0}>
+      <section className={styles.cardBooks}>
+
+    
+        {allBooks.map(book => {
+          return(
+            <div className={styles.cardContainer}>
+              <div className={styles.card}>
+                <div className={styles.cardImage}>
+                    <Link href={`/books/${book.id}`}>
+                          <a> <img src={book.thumbnail} alt={book.title} /></a>
+                    </Link> 
+                </div>
+                <div  className={styles.cardContent}>
+                  <h3>{book.title}</h3>
+                  <span>{book.edition}</span>
+                  <button type="button">Mais detalhes</button>
+                </div>
+
+              </div>
+              
+            </div>
+          
+          )
+         })}
+      
+      </section>
+
+         {/* <table cellSpacing={0}>
            <thead>
              <tr>
               <th>Capa</th>
@@ -69,8 +94,8 @@ export default function Home({ allBooks }: HomeProps) {
              })}
            </tbody>
 
-         </table>
-      </section>
+         </table> */}
+
     </div>
   )
 }
