@@ -1,5 +1,5 @@
 
-import { useEffect } from "react"
+import { useContext, useEffect } from "react"
 import { GetStaticProps } from 'next';
 import { api } from "../services/api";
 import { format, parseISO } from 'date-fns'; 
@@ -8,6 +8,7 @@ import { convertDurationToTimeString } from "../utils/convertDurationToTimeStrin
 import styles from './home.module.scss'; 
 import Image from 'next/image';
 import Link from 'next/link';
+import { PlayerContext } from "../contexts/PlayerContext";
 
 
 type Episode = {
@@ -29,6 +30,8 @@ type HomeProps = {
 
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
+  const { play } = useContext(PlayerContext);
+; 
 // console.log(props.episodes[0].title)
 
   //Chamada de API em SPA - Não indicada quando as informações precisam aparecer já quando a página é inicializadas
@@ -69,7 +72,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                   <span>{episode.durationAsString}</span>
                 </div>
 
-                <button type="button">
+                <button type="button" onClick={()=>play(episode)}>
                     <img src="/play-green.svg" alt="Tocar episódio"/>
                 </button>
               </li>
@@ -117,7 +120,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                    <td style={{ width: 100 }}>{episode.publishedAt}</td>
                    <td>{episode.durationAsString}</td>
                    <td>
-                     <button type="button">
+                     <button type="button" onClick={()=> play(episode)}>
                        <img src="/play-green.svg" alt="Tocar episódio"/>
                      </button>
                    </td>
