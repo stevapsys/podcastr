@@ -35,7 +35,7 @@ Utilização do NextJs e do Typescript em aplicações, além dos conceitos de C
 
 # :dizzy: Deploy 
 
-A aplicação foi publicada no Vercel e está disponível no link: em breve... 
+A aplicação foi publicada no Vercel e está disponível no link: https://podcastr-next-stevapsys.vercel.app/
 
 # :up: Próximo Nível 
 
