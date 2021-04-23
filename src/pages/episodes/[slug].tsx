@@ -31,7 +31,7 @@ type EpisodeProps = {
 
 export default function Episode ({episode}: EpisodeProps) {
 
-    const { play } = usePlayer(); 
+    const { play, isDarkModeActive } = usePlayer(); 
 
     const router = useRouter();
 
@@ -44,6 +44,7 @@ export default function Episode ({episode}: EpisodeProps) {
     // }
 
     return (
+    <div className={ isDarkModeActive ? styles.episodeDarkMode : styles.ep}>
         <div className={styles.episode}>
             <Head>
                 <title> {episode.title} | Podcastr </title>
@@ -75,6 +76,8 @@ export default function Episode ({episode}: EpisodeProps) {
             <div className={styles.description} 
             dangerouslySetInnerHTML= {{ __html: episode.description}} />
         </div>
+
+    </div>
         
     )
 }

@@ -6,8 +6,58 @@
     h2 {
         margin-top: 3rem; 
         margin-bottom: 1.5rem; 
+        color: var(--gray-800);
+
     }
 }
+
+
+
+
+.homepageDarkMode {
+    padding: 0 4rem; 
+    height: calc(100vh - 6.5rem); 
+    overflow-y: scroll; 
+    background: var(--dark-mode-800);
+
+    h2 {
+        margin-top: 3rem; 
+        margin-bottom: 1.5rem; 
+        color: (--dark-mode-text); 
+    }
+    .latestEpisodes {
+        li {
+            background: var(--dark-mode-600);
+            color:  (--dark-mode-text); 
+            border: 1px solid var(--gray-500);
+
+            }
+        
+            .darkModeText {
+                color: var(--dark-mode-text);
+            }
+
+            button {
+                background: var(--dark-mode-purple);
+                border: 1px solid var(--gray-500);
+            }
+        }
+
+        .allEpisodes { 
+            a {
+                color: var(--dark-mode-text);
+
+            }
+
+            button {
+                background: var(--dark-mode-purple);
+                border: 1px solid var(--gray-500);
+            }
+        }
+
+
+    } 
+
 
 .latestEpisodes {
     ul {
@@ -41,7 +91,6 @@
 
             a {
                 display: block;
-                color: var(--gray-800);
                 font-family: Lexend, sans-serif;
                 font-weight: 600; 
                 text-decoration: none;
@@ -51,6 +100,10 @@
                     text-decoration: underline;
                 }
                 
+            }
+
+            .text {
+                color: var(--gray-800);
             }
 
             p {

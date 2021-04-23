@@ -15,7 +15,8 @@ type PlayerContextDate = {
     isLooping: boolean; 
     isShuffling: boolean;
     hasNext: boolean;
-    hasPrevious: boolean;  
+    hasPrevious: boolean; 
+    isDarkModeActive: boolean;  
     play: (episode: Episode) => void; 
     playList: (list: Episode[], index:number) => void; 
     tooglePlay: ()=> void; 
@@ -25,6 +26,7 @@ type PlayerContextDate = {
     playPrevious: ()=> void; 
     setPlayingState: (state: boolean) => void; 
     clearPlayerState: () => void; 
+    darkMode: () => void; 
 
 }; 
 
@@ -40,6 +42,7 @@ export function PlayerContextProvider({children}: PlayerContextProviderProps) {
   const [isPlaying, setIsPlaying] = useState(false); 
   const [isLooping, setIsLooping]  = useState(false); 
   const [isShuffling, setIsShuffling] = useState(false); 
+  const [isDarkModeActive, setDarkModeActive] = useState(false); 
 
   function play(episode: Episode) {
     setEpisodeList([episode])
@@ -67,6 +70,10 @@ export function PlayerContextProvider({children}: PlayerContextProviderProps) {
 
   function setPlayingState(state: boolean) {
     setIsPlaying(state); 
+  }
+
+  function darkMode() {
+    setDarkModeActive(!isDarkModeActive)
   }
 
   const hasNext = isShuffling || (currentEpisodeIndex + 1) < episodeList.length;
@@ -102,6 +109,7 @@ export function PlayerContextProvider({children}: PlayerContextProviderProps) {
         hasPrevious, 
         isLooping,
         isShuffling,
+        isDarkModeActive, 
         play, 
         tooglePlay, 
         setPlayingState,
@@ -110,7 +118,8 @@ export function PlayerContextProvider({children}: PlayerContextProviderProps) {
         playPrevious,
         toogleLoop,
         toogleShuffle,
-        clearPlayerState
+        clearPlayerState,
+        darkMode,
 
     }}>
             {children}
