@@ -13,6 +13,7 @@
        display: flex;
        align-items: center;
        gap: 1rem; 
+       padding-bottom: 1rem;
    }
 
    strong {
@@ -22,8 +23,9 @@
 
    footer {
        align-self: stretch;
+       margin-top: 1rem;
 
-       &.empty {
+       &.empty .progress{
            opacity: 0.5;
        }
    }
@@ -33,12 +35,14 @@
 
        img {
            border-radius: 1.5rem;
+           width: 50%;
+           margin-top: 1rem;
        }
 
        strong {
            display: block;
            margin-top: 2rem; 
-           font: 600 1.25rem Lexend, sans-serif;
+           font: 600 1rem Lexend, sans-serif;
            line-height: 1.75rem;
        }
 
@@ -47,6 +51,7 @@
          margin-top: 1rem;
          opacity: 0.6rem; 
          line-height: 1.5rem;
+         font-size: 1rem;
        }
    }
 
@@ -103,10 +108,19 @@
 
         &:disabled {
             cursor: default;
+            opacity: 0.5;
         }
 
         &:hover:not(:disabled) {
             filter: brightness(0.7);
+        }
+
+        &.isActive {
+            filter: invert(0.35) sepia(1) saturate(3) hue-rotate(100deg); 
+        }
+
+        &.isActive:hover {
+            filter: brightness(0.6) invert(0.35) sepia(1) saturate(3) hue-rotate(100deg); 
         }
 
         &.playButton {
