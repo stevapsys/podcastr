@@ -15,18 +15,21 @@ export function BookModal() {
         <div className={styles.modalContainer}>
 
           <div className={styles.modalContent}>
-            <h2>{book?.title}</h2>
+
+          <div className={styles.bookCover}>
+            <img src={book?.thumbnail} alt={book.title} />            
+            <h2>{book.title}</h2>
+
+          </div>
+
 
             <div className={styles.rattings}>
-                <div  className={styles.rattingTag}>
-                    <span>Nota dos assosiados da TAG: </span>
-                    <span>2700</span>
+                <div  className={styles.ratting}>
+                    <strong >Nota - TAG: </strong>
+                    <span>{book.ratings}</span>
                 </div>
-
-                <div>X</div>
-
-                <div  className={styles.rattingGoodReads}>
-                    <span>Nota Good Reads:</span>
+                <div  className={styles.ratting}>
+                    <strong> Nota -  Good Reads:</strong>
                     <span>1891</span>
                 </div>
             </div>
@@ -34,17 +37,21 @@ export function BookModal() {
             <div className={styles.moreInfo}>
                 <h3>Outros detalhes:</h3>
                 <div className={styles.datailsInfo}>
-                  <div className={styles.author}>
-                    <span>Autor:</span>
+                  <div>
+                    <span className={styles.info}>Autor:</span>
+                    <span>{book.author}</span>
+                  </div>
+                  <div>
+                    <span className={styles.info}>Curador:</span>
                     <span>Nome do Autor</span>
                   </div>
-                  <div className={styles.curador}>
-                    <span>Curador:</span>
-                    <span>Nome do Autor</span>
+                  <div>
+                    <span className={styles.info}>Páginas:</span>
+                    <span>{book.pages}</span>
                   </div>
-                  <div className={styles.pages}>
-                    <span>Páginas:</span>
-                    <span>270</span>
+                  <div>
+                    <span className={styles.info}>Data de publicação na TAG:</span>
+                    <span>{book.edition}</span>
                   </div>
                 </div>
                 

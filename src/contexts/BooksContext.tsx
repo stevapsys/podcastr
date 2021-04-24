@@ -6,6 +6,9 @@ type Book = {
     author: string;
     curator: string; 
     pages: number;  
+    edition: string; 
+    thumbnail: string;
+
 };
 
 type BookCtxInfo = {

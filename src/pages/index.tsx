@@ -14,7 +14,7 @@ type Book = {
       title: string; 
       thumbnail: string;
       author: string;
-      edition: number; 
+      edition: string; 
       isbn: number; 
       ratings: number; 
       publishedAt: string; 
