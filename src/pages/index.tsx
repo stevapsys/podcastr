@@ -3,7 +3,8 @@ import { GetStaticProps } from 'next';
 import { api } from "../services/api";
 import styles from './home.module.scss'; 
 import Link from 'next/link';
-import { useState } from 'react'; 
+import { useContext, useState } from 'react'; 
+import { BookContext } from '../contexts/BooksContext';
 
 
 
@@ -28,6 +29,12 @@ type HomeProps = {
 export default function Home({ allBooks }: HomeProps) {
 
 
+  
+  
+  const { infoModal } = useContext(BookContext); 
+
+  
+
   return (
     <div className={styles.homepage}>
         
@@ -47,7 +54,7 @@ export default function Home({ allBooks }: HomeProps) {
                 <div  className={styles.cardContent}>
                   <h3>{book.title}</h3>
                   <span>{book.edition}</span>
-                  <button type="button"> Compare as notas! </button>
+                  <button type="button" onClick={() => infoModal(book)}> Compare as notas! </button>
                 </div>
               </div>
             </div>
@@ -58,46 +65,6 @@ export default function Home({ allBooks }: HomeProps) {
          })}
       
       </section>
-
-         {/* <table cellSpacing={0}>
-           <thead>
-             <tr>
-              <th>Capa</th>
-              <th>Título</th>
-              <th>Data da edição</th>
-              <th>Curador</th>
-              <th>Páginas</th>
-              <th>Avaliações TAG</th>
-              <th>Avaliações GoodRead</th>
-
-             </tr>
-           </thead>
-
-           <tbody>
-             {allBooks.map(book => {
-
-               return (
-                 <tr key={book.id}>
-                   <td style={{ width: 195 }}>
-                        <img src={book.thumbnail} alt=""/>
-                   </td>
-                   <td>
-                      <Link href={`/books/${book.id}`}>
-                        <a>{book.title}</a>
-                      </Link> 
-                    </td>
-                   <td>{book.edition}</td>
-                   <td>{book.author}</td>
-                   <td>{book.pages}</td>
-                   <td>{book.ratings}</td>
-                   <td>Avaliação Good Readings</td>
-
-                 </tr>
-               )
-             })}
-           </tbody>
-
-         </table> */}
 
     </div>
   )
